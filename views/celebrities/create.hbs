@@ -1,0 +1,29 @@
+<h2>Create</h2>
+
+<form method='POST'>
+  <label for='name-input'>Name</label>
+  <input
+    id='name-input'
+    type='text'
+    name='name'
+    placeholder='Celebrity name'
+    value='{{celebrity.name}}'
+  />
+  <label for='occupation-input'>Occupation</label>
+  <input
+    id='occupation-input'
+    type='text'
+    name='occupation'
+    placeholder='Celebrity occupation'
+    value='{{celebrity.occupation}}'
+  />
+  <label for='catchPhrase'>Catch Phrase</label>
+  <input
+    id='catchPhrase-input'
+    type='text'
+    name='catchPhrase'
+    placeholder='Celebrity catchPhrase'
+    value='{{celebrity.catchPhrase}}'
+  />
+  <button type='submit'>Create Celebrity</button>
+</form>
